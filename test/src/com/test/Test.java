@@ -4,7 +4,6 @@ import java.awt.Button;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Graphics;
-import java.awt.Polygon;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -43,24 +42,24 @@ public class Test extends JFrame implements MouseListener, ActionListener {
 			   button9,button10, button11, button12;
 		button1 = new Button("红色");
 		button1.setBounds(0, 0, 80, 30);
-		button1.setBackground(Color.RED);
+		button1.setBackground(Color.red);
 		button1.addActionListener(this);
 		this.add(button1);
 
-		button2 = new Button("黑色");
+		button2 = new Button("绿色");
 		button2.setBounds(90, 0, 80, 30);
-		button2.setBackground(Color.black);
+		button2.setBackground(Color.green);
 		button2.addActionListener(this);
 		this.add(button2);
 
 		button3 = new Button("黄色");
 		button3.setBounds(180, 0, 80, 30);
-		button3.setBackground(Color.YELLOW);
+		button3.setBackground(Color.yellow);
 		button3.addActionListener(this);
 		this.add(button3);
 
-		button4 = new Button("蓝色");
-		button4.setBackground(Color.BLUE);
+		button4 = new Button("橙色");
+		button4.setBackground(Color.orange);
 		button4.setBounds(270, 0, 80, 30);
 		button4.addActionListener(this);
 		this.add(button4);
@@ -202,17 +201,17 @@ public class Test extends JFrame implements MouseListener, ActionListener {
 			// 红色
 			c = Color.RED;
 			break;
-		case 1293761:
-			// 黑色
-			c = Color.BLACK;
+		case 1041235:
+			// 绿色
+			c = Color.GREEN;
 			break;
 		case 1293358:
 			// 黄色
 			c = Color.YELLOW;
 			break;
-		case 1087797:
-			// 蓝色
-			c = Color.BLUE;
+		case 877369:
+			// 橙色
+			c = Color.orange;
 			break;
 		case 27138585:
 			// 橡皮擦
@@ -250,11 +249,11 @@ public class Test extends JFrame implements MouseListener, ActionListener {
 			// 圆角矩形
 			flag = 3;
 			break;
-		case 23085411:
+		case 714977:
 			// 圆弧
 			flag = 4;
 			break;
-		case 2308541:
+		case 2560714:
 			// 3D矩形
 			flag = 5;
 			break;
